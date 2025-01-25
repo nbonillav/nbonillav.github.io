@@ -1,0 +1,120 @@
+header {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 2rem 0;
+    box-shadow: 1px 1px 14px #005e6b42;
+}
+
+.header__social-media {
+    margin-right: 100px;
+    height: 40px;
+    display: inline-table;
+  }
+  
+  .header__social-link {
+  }
+  
+  .header__social-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+.header__nav-list {
+}
+
+.header__nav-item {
+margin: 10px auto;
+padding: 0 1rem;
+font-size: 1.5rem;
+}
+
+.header__nav-link {
+padding: 18.5px 20px;
+display: block;
+font-weight: bold;
+}
+
+nav {
+    margin-left: 100px;
+}
+
+
+/* 
+wrapper > section
+*/
+section {
+    width: 100svw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.section__content {
+    /* height: 70%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__content p {
+    width: 80svw;
+    text-align: center;
+}
+
+.section__greatings {
+    font: bold 6.5rem "times new roman, serif";
+}
+
+.section__greatings::after {
+    content: "";
+    height: 2rem;
+    width: 100%;
+    background: rgba(69, 227, 255, 0.6509803922);
+    display: block;
+    border-radius: 5%;
+    margin-top: -2.5rem;
+}
+
+.section__description {
+    padding: 0.5rem 0;
+    font: 2.5rem "times new roman, serif";
+    line-height: 2.5rem;
+}
+
+.section__more {
+    width: 100vw !important;
+    font: 2rem "times new roman, serif";
+    margin: 1.5rem 0;
+}
+
+.section__moreInfo {
+    width: 100vw;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__buttonMoreInfo {
+    width: 25rem;
+    height: 3rem;
+    background: rgba(69, 227, 255, 0.6509803922);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 9px 1px #005e6b42;
+}
+
+.section__buttonMoreInfo:hover {
+    background: #038fa1;
+    transition: background 0.5s ease-in 0.12s;
+    color: white;
+    box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
+}
