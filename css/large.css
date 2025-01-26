@@ -1,0 +1,94 @@
+
+header {
+    background: none;
+    width: 100lvw;
+    height: 2rem;
+    margin: 0 auto;
+    position: static;
+    /* clear: both; */
+}
+
+.header__nav-item {
+    font-size: 1rem;
+}
+
+/*
+Wrapper 
+*/
+
+/* 
+    wrapper
+*/
+#wrapper {
+    width: 75vw;
+    height: 30rem;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+  
+aside {
+    width: 25vw;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.aside_badge {
+    width: 25vw;
+    /* height: auto; */
+    border-radius: 5%;
+}
+  
+/* 
+    section
+*/
+section {
+    width: 25vw;
+    height: auto;
+}
+  
+.section__content {
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: flex-start; */
+
+}
+  
+.section__content p {
+    width: 460px;
+}
+  
+.section__greatings {
+    font: bold 3rem "times new roman, serif";
+}
+
+.section__greatings::after {
+    content: "";
+    height: 16px;
+    margin-top: -20px;
+}
+
+.section__description {
+    font: 1.5rem "times new roman, serif";
+}
+
+.section__more {
+    width: 400px !important;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.section__moreInfo {
+    width: 300px;
+    height: auto;
+}
+
+.section__buttonMoreInfo {
+    width: 100%;
+    height: 35px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+  
