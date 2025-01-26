@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Nath's Portfolio</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="css/all.css" media="all" />
-    <link rel="stylesheet" href="css/small.css" media="(min-width: 20em)" />
-    <link rel="stylesheet" href="css/medium.css" media="(min-width: 64em)" />
-    <link rel="stylesheet" href="css/large.css" media="(min-width: 90em)" />
-    <!-- <link rel="stylesheet" href="scss/style2.css"> -->
-    <!-- <link rel="stylesheet" href="scss/style.css" media="(min-width: 90em)" /> -->
+    <link rel="stylesheet" href="css/small.css" media="(min-width: 20em) and (orientation: portrait)" />
+    <link rel="stylesheet" href="css/medium.css" media="(min-width: 64em) or ((min-width: 20em) and (orientation: landscape))"/>
+    <link rel="stylesheet" href="css/large.css" media="(min-width: 90em) and (orientation: landscape)" />
 </head>
 <body>
     <header class="container header">
@@ -42,6 +39,7 @@
         <aside class="aside">
             <picture>
                 <source srcset="img/tools-and-tecnologies.png" media="(min-width: 20em)">
+                <source srcset="img/tools-and-tecnologies-400.png" media="(min-width: 64em)">
                 <img class="aside_badge" src="img/tools-and-tecnologies-600.png" alt="tools and tecnologies logos">
             </picture>
         </aside>
