@@ -5,7 +5,12 @@ header {
     background-color: #ffffff;
     margin: 0 auto;
     padding: 2rem 0;
+    -webkit-box-shadow: 1px 1px 14px #005e6b42;
+    -moz-box-shadow: 1px 1px 14px #005e6b42;
+    -ms-box-shadow: 1px 1px 14px #005e6b42;
+    -o-box-shadow: 1px 1px 14px #005e6b42;
     box-shadow: 1px 1px 14px #005e6b42;
+
     position: fixed;
 }
 
@@ -55,12 +60,9 @@ wrapper
 wrapper > aside
 */
 aside {
-    /* width: 60svw; */
     height: auto;
     margin: 0 auto;
     padding-top: 4rem;
-    /* display: flex;
-    align-items: center; */
 }
 
 .aside_badge {
@@ -118,7 +120,7 @@ section {
 }
 
 .section__more {
-    width: 32rem !important;
+    width: 32rem;
     font: 2rem "times new roman, serif";
     margin: 1.5rem 0;
 }
@@ -148,6 +150,10 @@ section {
     background: #038fa1;
     transition: background 0.5s ease-in 0.12s;
     color: white;
+    -webkit-box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
+    -moz-box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
+    -ms-box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
+    -o-box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
     box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
 }
 
