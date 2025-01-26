@@ -91,4 +91,51 @@ section {
     margin-top: 1rem;
 }
 
+
+/* 
+    footer
+*/
+footer {
+    padding-top: 50px;
+  }
+  
+  footer div {
+    width: 400px;
+    height: 90px;
+    margin: 0 20px;
+  }
+  
+  footer div h4 {
+    margin: 0 0 10px 0;
+    /* text-align: center; */
+  }
+  
+  footer p, footer li, footer li a {
+    color: #5a5a5a;
+    font: 12px arial, san-serif;
+    padding: 5px 0;
+  }
+  
+  div.social_media_footer {
+    margin: 0;
+  }
+  
+  .social_media_footer img {
+    padding: 5px 5px 0 0;
+  }
+  
+  .social_media_footer a, .social_media_footer img {
+    width: 25px;
+    height: auto;
+    display: inline-table;
+  }
+  
+  .contact_me_email a {
+    color: #5a5a5a;
+    font: 0.65rem sans-serif;
+  }
+  
+  .contact_me_email a:hover {
+    color: rgb(164, 31, 31);
+  }/*# sourceMappingURL=style2.css.map */
   
