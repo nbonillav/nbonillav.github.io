@@ -3,13 +3,14 @@ header {
     background: none;
     width: 100lvw;
     height: 2rem;
-    margin: 0 auto;
-    position: static;
     /* clear: both; */
 }
 
 .header__nav-item {
     font-size: 1rem;
+}
+.header__nav-item a{
+    color: rgb(3, 94, 17); /*Color to verify large size*/
 }
 
 /*

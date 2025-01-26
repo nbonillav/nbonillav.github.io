@@ -22,7 +22,11 @@ header {
 .header__nav-item {
     margin: 10px auto;
     padding: 0 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+.header__nav-item a{
+    color: rgb(103, 5, 138); /*Color to verify small size*/
 }
 
 .header__nav-link {
@@ -60,9 +64,6 @@ aside {
 .aside_badge {
     width: 80svw;
     height: auto;
-    border-radius: 5%;
-    box-shadow: 0 0 20px 3px rgba(230, 230, 230, 0.7882352941);
-    background-image: radial-gradient(#ffffff, #ffffff, #ffffff, #f8f8f8);
 }
 
 /* 
@@ -91,28 +92,16 @@ section {
     text-align: center;
 }
 
-.section__greatings {
-    font: bold 5.5rem "times new roman, serif";
-}
-
 .section__greatings::after {
-    content: "";
-    height: 2rem;
-    width: 100%;
-    background: rgba(69, 227, 255, 0.6509803922);
-    display: block;
-    border-radius: 5%;
     margin-top: -2.5rem;
 }
 
 .section__description {
     padding: 2rem 0;
-    font: 3rem "times new roman, serif";
     line-height: 4.5rem;
 }
 
 .section__more {
-    width: 32rem;
     font: 2rem "times new roman, serif";
     margin: 1.5rem 0;
 }
@@ -127,60 +116,35 @@ section {
 }
 
 .section__buttonMoreInfo {
-    width: 32rem;
-    height: 5rem;
-    background: rgba(69, 227, 255, 0.6509803922);
-    font-weight: bold;
-    font-size: 2rem;
-    border: none;
-    border-radius: 1rem;
-    cursor: pointer;
-    box-shadow: 0 0 9px 1px #005e6b42;
-}
-
-.section__buttonMoreInfo:hover {
-    background: #038fa1;
-    transition: background 0.5s ease-in 0.12s;
-    color: white;
-    -webkit-box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
-    -moz-box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
-    -ms-box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
-    -o-box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
-    box-shadow: inset 0 0 9px 1px rgba(0, 74, 87, 0.911);
+    /* font-size: 2rem; */
 }
 
 /* 
 footer
 */
 footer {
-    width: 100svw;
+    /* width: 100svw; */
     height: 16svh;
     padding: 5rem 0;
 }
 
 footer div {
-    width:calc(100vw/2);
+    /* width:calc(100vw/2); */
     height: 20rem;
     margin: 0 2rem;
     /* background-color: red; */
 }
 
 footer div h4 {
-    /* margin: 0 0 1.5rem 0; */
     font-size: 2.5rem;
-    text-align: center;
-    /* text-align: center; */
 }
 
 footer p, footer li, footer li a{
-    color: #5a5a5a;
     font: 2.5rem arial, san-serif;
     padding: 0.5rem 0;
-    margin: 0 auto;
 }
 
 footer li{
-    margin: 1.5rem auto;
     text-align: center;
 }
 
