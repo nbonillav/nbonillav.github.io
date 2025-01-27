@@ -1,18 +1,21 @@
 <h2> Hey there! I'm Natalia!.</h2>
-
+<h4>This portfolio page has been created to showcase some of my work over time.
+<br/>
+This page was made mobile-first, but has some issues that are under maintenance.</h4>
+<br/>
 <h3> 👨🏻‍💻 About Me </h3>
 
-- 🔭 &nbsp; I’m currently learning Data Analyst
-- 🎓 &nbsp; Studies in System Engineer.
 - 💼 &nbsp; AEM Content Managment.
+- 🔭 &nbsp; I’m currently learning Data Analyst
+- 🎓 &nbsp; Studies in System Engineer & Graphic Design
 - ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
 
 <h3>🛠 Tech Stack</h3>
 
 - 💻 &nbsp; Adobe Experience Manager
-- 🌐 &nbsp; HTML5 | CSS3 | Proficient JavaScript & Python | Bootstrap
-- 🔧 &nbsp; Visual Studio code | PyCharm | GitHub | Jira
-- 🖥 &nbsp;  Illustrator | Photoshop | Figma
+- 🌐 &nbsp; HTML5 | CSS3 | Bootstrap | Proficient JavaScript XML, JSON, SASS & Python
+- 🔧 &nbsp; VsCode | PyCharm | GitHub | Jira | Fork | Power BI
+- 🖥 &nbsp;   Figma | Photoshop | Illustrator
 
 <br>
 
