@@ -52,6 +52,7 @@ wrapper
     flex-wrap: wrap;
     padding: 1rem 0;
     margin: 0 auto;
+    flex-direction: row;
 }
 
 /* 
@@ -190,3 +191,35 @@ div.social_media_footer {
 .contact_me_email a:hover {
     /* color: rgb(164, 31, 31); */
 }/*# sourceMappingURL=style2.css.map */
+
+
+
+/* landscape */
+@media only screen 
+and (min-device-width: 1024px) 
+and (orientation: landscape) {
+    footer div h4 {
+        font-size: 1.3rem;
+        /* color: red !important; */
+    }
+}
+
+
+/* portrait */
+@media only screen 
+and (min-device-width: 1024px) 
+and (orientation: portrait){
+    header{
+        height: 5vh;
+    }
+    .header__social-link {
+        padding-top: 0;
+    }
+    #wrapper{
+        margin-top: 2rem;
+    }
+
+    .section{
+        margin-top: 0;
+    }
+}
