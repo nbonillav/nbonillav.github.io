@@ -1,8 +1,8 @@
 
 header {
     background: none;
-    width: 100lvw;
-    height: 2rem;
+    width: 100vw;
+    height: 12vh;
     /* clear: both; */
 }
 
@@ -22,20 +22,19 @@ Wrapper
 */
 #wrapper {
     width: 75vw;
-    height: 30rem;
+    height: auto;
     flex-wrap: wrap;
     padding-top: 2rem;
+    margin: 0 auto;
 }
   
 aside {
-    width: 25vw;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;
+    width: 30vw !important;
+        /* padding: 0 calc((90vw - 80vw) / 4); */
 }
   
 .aside_badge {
-    width: 25vw;
+    width: 20vw;
     /* height: auto; */
     border-radius: 5%;
 }
@@ -44,28 +43,30 @@ aside {
     section
 */
 section {
-    width: 25vw;
+    width: 30vw;
     height: auto;
+    padding: 0;
+    margin: 0 auto;
 }
   
 .section__content {
-    /* width: 100%; */
-    /* display: flex;
-    justify-content: flex-start; */
+    width: auto;
 
 }
   
 .section__content p {
     width: 460px;
+    text-align: center;
+    margin: 0 auto;
 }
   
 .section__greatings {
+    margin: 0 auto;
     font: bold 3rem "times new roman, serif";
 }
 
 .section__greatings::after {
-    content: "";
-    height: 16px;
+    width: auto;
     margin-top: -20px;
 }
 
@@ -82,6 +83,7 @@ section {
 .section__moreInfo {
     width: 300px;
     height: auto;
+    margin: 0 auto;
 }
 
 .section__buttonMoreInfo {
@@ -102,19 +104,21 @@ footer {
   
   footer div {
     width: 400px;
-    height: 90px;
+    height: auto;
     margin: 0 20px;
   }
   
   footer div h4 {
     margin: 0 0 10px 0;
+    font-size: 1.2rem;
     /* text-align: center; */
   }
   
   footer p, footer li, footer li a {
-    color: #5a5a5a;
-    font: 12px arial, san-serif;
-    padding: 5px 0;
+    /* color: #5a5a5a; */
+    font-size: 0.9rem;
+    /* font: 12px arial, san-serif; */
+    /* padding: 5px 0; */
   }
   
   div.social_media_footer {
@@ -132,8 +136,8 @@ footer {
   }
   
   .contact_me_email a {
-    color: #5a5a5a;
-    font: 0.65rem sans-serif;
+    /* color: #5a5a5a; */
+    font: 0.8rem sans-serif;
   }
   
   .contact_me_email a:hover {
