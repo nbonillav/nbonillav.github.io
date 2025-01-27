@@ -26,7 +26,8 @@ header {
 }
 
 .header__nav-item a{
-    color: rgb(103, 5, 138); /*Color to verify small size*/
+    /* color: rgb(103, 5, 138); */
+    /*Color to verify small size*/
 }
 
 .header__nav-link {
