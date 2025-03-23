@@ -5,7 +5,7 @@ This page was made mobile-first, but has some issues that are under maintenance.
 <br/>
 <h3> 👨🏻‍💻 About Me </h3>
 
-- 💼 &nbsp; AEM Content Managment.
+- 💼 &nbsp; AEM Content Manager.
 - 🔭 &nbsp; I’m currently learning Data Analyst
 - 🎓 &nbsp; Studies in System Engineer & Graphic Design
 - ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
@@ -15,7 +15,7 @@ This page was made mobile-first, but has some issues that are under maintenance.
 - 💻 &nbsp; Adobe Experience Manager
 - 🌐 &nbsp; HTML5 | CSS3 | Bootstrap | Proficient JavaScript XML, JSON, SASS & Python
 - 🔧 &nbsp; VsCode | PyCharm | GitHub | Jira | Fork | Power BI
-- 🖥 &nbsp;   Figma | Photoshop | Illustrator
+- 🖌️ &nbsp; Figma | Photoshop | Illustrator
 
 <br>
 
